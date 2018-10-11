@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>CSS-3.2</title>
+        <meta charset="UTF-8">
+        <style>
+            div {
+                border: 1px solid black;
+                background-color: lightblue;
+            }
+            .with-margin {
+                border: 1px solid black;
+                margin: 100px 100px 100px 100px;
+                background-color: lightgreen;
+            }
+            .with-padding {
+                border: 1px solid black;
+                padding: 25px 50px 75px 100px;
+                background-color: lightgreen;
+            }
+            .margin-padding {
+                border: 1px solid black;
+                padding: 25px 50px 75px 100px;
+                margin: 100px 100px 100px 100px;
+                background-color: lightgreen;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>CSS3 paddings</h1>
+        <hr>
+        <div>
+            <p class="with-margin">
+                Αυτό το στοιχείο έχει margin attribute στο CSS. Παρατηρήστε το
+                κενό μεταξύ αυτού του στοιχείου και των υπολοίπων γύρω του!
+            </p>
+            <p class="with-padding">
+                Αυτό το στοιχείο έχει padding attribute αλλά όχι margin στο
+                CSS. Παρατηρήστε ότι δεν έχει κενό σε σχέση με τα γειτονικά 
+                στοιχεία, αλλά στο εσωτερικό του!
+            </p>
+            <p class="margin-padding">
+                Αυτό το στοιχείο έχει και padding και margin attribute στο CSS. Παρατηρήστε
+                ότι έχει κενό τόσο σε σχέση με τα γειτονικά στοιχεία, αλλά και 
+                στο εσωτερικό του!
+            </p>
+
+        </div>
+    </body>
+</html>

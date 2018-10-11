@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>CSS-2.2</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            body{
+                background-image: url("images/skouliki.jpg");
+                background-position:  top right;
+                background-repeat: no-repeat;
+                background-attachment: fixed;
+            }
+            #example1 {
+                width: 350px;
+                height: 250px;
+                background-image: url(images/img_flwr.gif), url(images/paper.gif);
+                background-position: right bottom, left top;
+                background-repeat: no-repeat, repeat;
+                background-size: 120px,100px ;
+            }
+            #example2{
+                width:200px;
+                background: linear-gradient(to bottom right, red, yellow);
+            }
+            #example3{
+                width:200px;
+                background: radial-gradient(red, yellow,green);
+            }           
+        </style>
+    </head>
+    <body>
+        <p>I set the image tobackground top right thgrouh css</p>
+        <p id="example1">This paragraph uses multiple images. CSS3 only</p>
+        <p id="example2">Linear gradient example: CSS3 only</p>
+        <p id="example3">Radial gradient example: CSS3 only</p>
+    </body>
+</html>

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	    <meta charset="UTF-8">
+		<style>
+			.css{
+				color:red;
+				padding:40 px;
+			}
+		</style>
+	</head>
+		<body>
+		<ul>
+		  <li><a href="#home">Home</a></li>
+		  <li><a href="#news">News</a></li>
+		  <li><a href="#contact">Contact</a></li>
+		  <li><a href="#about">About</a></li>
+		</ul>
+		<p> Θα φτιάξουμε μια navbar</p>
+		<p>STEP 1: remove the bullets and the margins and padding from the list:</p>
+		<p class="css">ul {
+			list-style-type: none;<br>
+			margin: 0;<br>
+			padding: 0;<br>
+		}</p>
+		<p>STEP 2: Ομορφύνετέ την :</p>
+		<p class="css">ul {<br>
+			list-style-type: none;<br>
+			margin: 0;<br>
+			padding: 0;<br>
+			overflow: hidden; Μην αφήσετε αυτό το element να μεγαλώσει!!!<br>
+			background-color: #333;<br>
+		}</p>		
+		<p>STEP 3: Αριστερή στοίχισση στα li:</p>
+		<p class="css">li {<br>
+				float: left;<br>
+			}</p>		
+		
+		<p>STEP 4: Κάντε την κάθετη:</p>
+		<p class="css">li a {<br>
+			display: block; Όλη η περιοχή γίνεται clickable!<br>
+			color: white;<br>
+			text-align: center;<br>
+			padding: 14px 16px;<br>
+			text-decoration: none;<br>
+		}<br></p>		
+		<p>STEP 5: Κάποιοι όμορφοι selectors!!!:</p>
+		<p class="css">
+			li a:hover:not(.active) {<br>
+				background-color: #111;<br>
+			}<br>
+
+			.active {<br>
+				background-color: #4CAF50;<br>
+			}
+		}<br></p>		
+		<p>STEP 6: To about στα δεξιά!:</p>
+		<p class="css">
+		&lt li style="float:right"> &lt a class="active" href="#about"
+</p>
+		
+
+		</body>
+</html>
